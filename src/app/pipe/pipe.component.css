@@ -1,0 +1,22 @@
+h1 {
+    color: rgb(123, 40, 10);
+}
+
+p {
+    color: darkmagenta;
+}
+
+h3 {
+    color: chocolate;
+}
+
+h2 {
+    color: red;
+}
+
+h1,
+p,
+h3,
+h2 {
+    background-color: antiquewhite;
+}

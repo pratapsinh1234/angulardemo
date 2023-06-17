@@ -1,0 +1,20 @@
+<h1>{{message1 | uppercase}}</h1>
+<h1>{{message1 | lowercase}}</h1>
+
+<p>{{summary | titlecase}}</p>
+
+<h2>Today's Date: {{todaysDate}}</h2>
+
+<h3>Short Date:{{todaysDate | date:'shortDate'}}</h3>
+
+<h3>Medium Date : {{todaysDate | date:'mediumDate'}}</h3>
+
+<h3>Long Date : {{todaysDate | date:'longDate'}}</h3>
+
+<h3>Todays Date in DDMMYYYY : {{todaysDate | date:'dd/MM/yyyy'}}</h3>
+
+<h3>Product Price : {{productPrice | currency}}</h3>
+
+<h3>Product Price In Rupees: {{productPrice | currency:'INR'}}</h3>
+<h3>Average is :{{average | number:'.1-2'}}</h3>
+<h3>Average is :{{average | number:'10.3-4'}}</h3>
